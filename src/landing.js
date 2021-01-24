@@ -135,7 +135,7 @@ export default class Landing extends Component {
             redirect: 'follow'
           };
           
-          fetch("http://localhost:5000/avatar?artist="+this.state.artist, requestOptions)
+          fetch("http://dhiracsantander-env.eba-yyv9scsf.eu-west-1.elasticbeanstalk.com/avatar?artist="+this.state.artist, requestOptions)
             .then(response => response.json())
             .then(result => {
 
