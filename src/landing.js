@@ -135,7 +135,7 @@ export default class Landing extends Component {
             redirect: 'follow'
           };
           
-          fetch("https://dhiracsantander-env.eba-yyv9scsf.eu-west-1.elasticbeanstalk.com/avatar?artist="+this.state.artist, requestOptions)
+          fetch("http://localhost:5000/avatar?artist="+this.state.artist, requestOptions)
             .then(response => response.json())
             .then(result => {
 
@@ -170,9 +170,9 @@ export default class Landing extends Component {
           };
 
          
-         //http://dhiracsantander-env.eba-yyv9scsf.eu-west-1.elasticbeanstalk.com/
           
-          fetch("https://dhiracsantander-env.eba-yyv9scsf.eu-west-1.elasticbeanstalk.com/movie?artist="+this.state.artist+"&role="+this.state.role, requestOptions)
+          
+          fetch("http://localhost:5000/movie?artist="+this.state.artist+"&role="+this.state.role, requestOptions)
             .then(response => response.json())
             .then(result => {
 
