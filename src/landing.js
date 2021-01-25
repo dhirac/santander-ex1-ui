@@ -135,7 +135,7 @@ export default class Landing extends Component {
             redirect: 'follow'
           };
           
-          fetch("http://localhost:5000/avatar?artist="+this.state.artist, requestOptions)
+          fetch("https://santander.himalayandevops.com/avatar?artist="+this.state.artist, requestOptions)
             .then(response => response.json())
             .then(result => {
 
@@ -172,7 +172,7 @@ export default class Landing extends Component {
          
           
           
-          fetch("http://localhost:5000/movie?artist="+this.state.artist+"&role="+this.state.role, requestOptions)
+          fetch("https://santander.himalayandevops.com/movie?artist="+this.state.artist+"&role="+this.state.role, requestOptions)
             .then(response => response.json())
             .then(result => {
 
