@@ -30,7 +30,8 @@ export default class Landing extends Component {
             role:'',
             showName:'',
             counter : 0,
-            showError:false
+            showError:false,
+            test:false
            
                   
         };
