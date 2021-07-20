@@ -276,7 +276,7 @@ export default class Landing extends Component {
           <Col  xs={6} md={4}>  
             
              <>
-             <h1 style={{fontSize:70,color:'white',marginTop:'20px',textAlign:'center',marginBottom:0,paddingBottom:0}}>GROUPM DHIRAJ</h1>
+             <h1 style={{fontSize:70,color:'white',marginTop:'20px',textAlign:'center',marginBottom:0,paddingBottom:0}}>GROUPM D</h1>
              <h2 style={{marginTop:'0px',color:'white',textAlign:'center',fontSize:'15px'}}>Search the entire movie industry with us ...</h2>
              </>
              
