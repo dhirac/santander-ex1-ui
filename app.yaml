@@ -8,3 +8,8 @@ handlers:
 - url: /.*
   static_files: build/index.html
   upload: build/index.html
+  
+ skip_files:
+- ^(.*/)?.*/node_modules/.*$
+- ^(.*/)?\.package.json$
+- ^(.*/)?\.package-lock.json$
